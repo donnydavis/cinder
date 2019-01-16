@@ -29,7 +29,7 @@ class FreeNASServer(object):
     DELETE_COMMAND = 'delete'
 
     # FREENAS API query tables
-    REST_API_VOLUME = "/storage/volume"
+    REST_API_VOLUME = "/pool/id"
     REST_API_EXTENT = "/services/iscsi/extent"
     REST_API_TARGET = "/services/iscsi/target"
     REST_API_TARGET_TO_EXTENT = "/services/iscsi/targettoextent"
